@@ -1,95 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Buttons</title>
+    <!-- Files icon logo devChallenge -->
+    <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon">
+    <!-- Files css -->
+    <link rel="stylesheet" href="Styles/style_mobile.css">
+    <!-- Files Fontawesome -->
+    <script src="https://kit.fontawesome.com/6d642dc6ea.js" crossorigin="anonymous"></script>
+    <!-- Files Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@600&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container_header_aside">
+        <header class="header">
+            <h1 class="title_header"><span class="title_orange">Dev</span>challenge.io</h1>
+        </header>
+        <nav class="nav">
+            <ul class="list_nav">
+                <li class="item_list_nav">Colors</li>
+                <li class="item_list_nav">Typography</li>
+                <li class="item_list_nav">Spaces</li>
+                <li class="item_list_nav">Buttons</li>
+                <li class="item_list_nav">Inputs</li>
+                <li class="item_list_nav">Grid</li>
+            </ul>
+        </nav>
     </div>
-  </body>
+    <main class="main">
+        <h2 class="title_main">Buttons</h2>
+        <div class="container_button">
+            <div class="container_button_gray">
+                <p class="text_top_button"></p>
+                <button class="button_gray_white">Default</button>
+            </div>
+            <div class="container_button_gray">
+                <p class="text_top_button">&:hover, &:focus</p>
+                <button class="button_gray">Default</button>
+            </div>
+        </div>
+        <div class="container_button">
+            <div class="container_button_blue">
+                <p class="text_top_button"></p>
+                <button class="button_blue_one">Default</button>
+            </div>
+            <div class="container_button_gray">
+                <p class="text_top_button">&:hover, &:focus</p>
+                <button class="button_blue_two">Default</button>
+            </div>
+        </div>
+        <div class="container_button">
+            <div class="container_button_blue_3">
+                <p class="text_top_button"></p>
+                <button class="button_blue_one_3">Default</button>
+            </div>
+            <div class="container_button_gray">
+                <p class="text_top_button">&:hover, &:focus</p>
+                <button class="button_blue_two_3">Default</button>
+            </div>
+        </div>
+        <div class="container_button">
+            <div class="container_4_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_4">Default</button>
+            </div>
+        </div>
+        <div class="container_button">
+            <div class="container_5_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_5">Default</button>
+            </div>
+            <div class="container_5_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_5">Default</button>
+            </div>
+        </div>
+        <div class="container_button">
+            <div class="container_6_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_6"><i class="fa-solid fa-cart-arrow-down"></i>  Default</button>
+            </div>
+            <div class="container_6_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_6">Default  <i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+        </div>
+        <div class="container_button">
+            <div class="container_7_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_7_pequeño">Default</button>
+            </div>
+            <div class="container_7_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_7_medio">Default</button>
+            </div>
+            <div class="container_7_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_7_grande">Default</button>
+            </div>
+        </div>
+        <div class="container_button">
+            <div class="container_8_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_8">Default</button>
+            </div>
+            <div class="container_8_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_8">Default</button>
+            </div>
+            <div class="container_8_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_8">Secondary</button>
+            </div>
+            <div class="container_8_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_8">Danger</button>
+            </div>
+        </div>
+        <div class="container_button">
+            <div class="container_9_buttons">
+                <p class="text_top_button"></p>
+                <button class="button_part_9">Default</button>
+            </div>
+            <div class="container_9_buttons">
+                <button class="button_part_9">Default</button>
+            </div>
+            <div class="container_9_buttons">
+                <button class="button_part_9">Secondary</button>
+            </div>
+            <div class="container_9_buttons">
+                <button class="button_part_9">Danger</button>
+            </div>
+        </div>
+        <div class="container_button">
+            <p class="link_icon">Icons: https://material.io/resources/icons/?style=round</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="copyrigt">created by username - devChallenges.io</p>
+    </footer>
+</body>
 </html>

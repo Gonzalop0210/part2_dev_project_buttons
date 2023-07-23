@@ -44,3 +44,133 @@
     font-size: 24px;
     color: #4F4F4F;
 }
+
+.text_top_button, .text_top_button_extra {
+    font-family: var(--font_ubuntu);
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+}
+
+.text_top_button_extra {
+    color: #828282;
+}
+
+.button_gray_white,
+.button_gray,
+.button_blue_one,
+.button_blue_two,
+.button_blue_two_3,
+.button_part_4,
+.button_part_5_one,
+.button_part_6_one,
+.button_part_6_two,
+.button_part_7_pequeño,
+.button_part_7_medio,
+.button_part_7_grande,
+.button_part_8_one,
+.button_part_8_two,
+.button_part_8_three,
+.button_part_8_four {
+    font-family: var(--font_motoSansJp);
+    font-weight: 500;
+    font-size: 14px;
+    color: #3F3F3F;
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+
+.button_gray {
+    background-color: #AEAEAE;
+    border: 1px solid #AEAEAE;
+}
+
+.button_blue_one {
+    background-color: #FFFFFF;
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+}
+
+.button_blue_two, .button_blue_two_3 {
+    color: #3D5AFE;
+    border: 1px solid #3D5AFE;
+    background-color: #2962FF1A;
+}
+
+.button_blue_one_3 {
+    color: #3D5AFE;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+}
+
+.button_blue_two_3 {
+    border: none;
+}
+
+.button_part_4 {
+    color: #FFFFFF;
+    background-color: #3D5AFE;
+}
+
+.button_part_5_one {
+    color: #9E9E9E;
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+}
+
+.button_part_5_two {
+    color: #9E9E9E;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 14px;
+}
+
+.button_part_6_one,
+.button_part_6_two {
+    color: #FFFFFF;
+    background-color: #3D5AFE;
+    border: 1px solid #3D5AFE;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.button_part_7_pequeño {
+    color: #FFFFFF;
+    background-color: #3D5AFE;
+    padding: 3px 10px;
+}
+
+.button_part_7_medio {
+    color: #FFFFFF;
+    background-color: #3D5AFE;
+}
+
+.button_part_7_grande {
+    color: #FFFFFF;
+    background-color: #3D5AFE;
+    padding: 8px 19px;
+}
+
+.button_part_8_two {
+    color: #FFFFFF;
+    background-color: #3D5AFE;
+    border: 1px solid #3D5AFE;
+}
+
+.button_part_8_three {
+    color: #FFFFFF;
+    background-color: #455A64;
+    border: 1px solid #455A64;
+}
+
+.button_part_8_four {
+    color: #FFFFFF;
+    background-color: #D32F2F;
+    border: 1px solid #D32F2F;
+}

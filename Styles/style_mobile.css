@@ -12,6 +12,20 @@
     --font_ubuntu: 'Ubuntu Mono', monospace;
 }
 
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto;
+    padding-top: 50px;
+}
+
+.container_header_aside {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 /* Styles header */
 .title_header {
     font-family: var(--font_poppins);
@@ -38,6 +52,12 @@
 }
 
 /* Style main */
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .title_main {
     font-family: var(--font_poppins);
     font-weight: 500;
@@ -71,7 +91,11 @@
 .button_part_8_one,
 .button_part_8_two,
 .button_part_8_three,
-.button_part_8_four {
+.button_part_8_four,
+.button_part_9_one,
+.button_part_9_two,
+.button_part_9_three,
+.button_part_9_four {
     font-family: var(--font_motoSansJp);
     font-weight: 500;
     font-size: 14px;
@@ -173,4 +197,51 @@
     color: #FFFFFF;
     background-color: #D32F2F;
     border: 1px solid #D32F2F;
+}
+
+.button_part_9_one {
+    color: #3F3F3F;
+    background-color: #AEAEAE;
+}
+
+.button_part_9_two {
+    color: #FFFFFF;
+    background-color: #0039CB;
+}
+
+.button_part_9_three {
+    color: #FFFFFF;
+    background-color: #1C313A;
+}
+
+.button_part_9_four {
+    color: #FFFFFF;
+    background-color: #9A0007;
+}
+
+/* Cajas padres de los botones */
+.container_button {
+    display: flex;
+}
+
+.container_button_gray,
+.container_button_blue,
+.container_button_blue_3,
+.container_5_buttons,
+.container_6_buttons,
+.container_7_buttons,
+.container_8_buttons,
+.container_9_buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.container_4_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
